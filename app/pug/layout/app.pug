@@ -1,0 +1,19 @@
+include ../include/_var
+include ../blocks/btn
+block var
+doctype html
+html(lang="en")
+    head
+        //- head,meta,style ...
+        include ../include/_head
+    body 
+        //- header
+        block header 
+            include header 
+        //- index,contact,about ...
+        block main 
+        //- footer
+        block footer 
+            include footer
+        //- scripts
+        include ../include/_script

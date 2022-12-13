@@ -1,0 +1,12 @@
+@import "../_mixins/font-face";
+
+@include font-face("roboto-regular", "../font/Roboto-Regular", 400);
+@include font-face("roboto-medium", "../font/Roboto-Medium", 500);
+
+@mixin regular {
+    font-family: "roboto-regular", sans-serif;
+}
+
+@mixin regular {
+    font-family: "roboto-medium", sans-serif;
+}

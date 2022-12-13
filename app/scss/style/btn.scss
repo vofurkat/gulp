@@ -1,0 +1,10 @@
+.btn{
+    padding: 0;
+    border: none;
+    @include media(md){
+        background-color: green;
+    }
+    @include media(sm){
+        background-color: red;
+    }
+}

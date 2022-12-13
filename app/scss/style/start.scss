@@ -1,0 +1,36 @@
+.start{
+    &__container{
+        @include make-container();
+        @include max-container();
+    }
+    &__text{
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__title{
+        width: 100%;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    &__auther{
+        width: 100%;
+        h1{
+            letter-spacing: 1px;
+            font-size: 40px;
+        }
+    }
+    &__social{
+        width: 100%;
+        a{
+            text-decoration: none;
+            font-size: 25px;
+            color: $accent;
+            margin: 0 15px;
+        }
+    }
+}
